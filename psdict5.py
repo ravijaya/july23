@@ -1,4 +1,4 @@
-"""to delete an item from a dict object"""
+"""demo for the lookup aka read operation"""
 
 info = {
     'host': ['ws1', 'ws2'],
@@ -10,8 +10,6 @@ info = {
 }
 
 
-value = info.pop('desc')  # delete the element for the key, returns its value
-print(value)
-print()
-info.pop('host')
-print(info)
+print(info['host'])   # read
+print(info['domain'])
+print(info['app'])

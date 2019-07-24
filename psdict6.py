@@ -10,6 +10,8 @@ info = {
 }
 
 
-print(info['host'])   # read
-print(info['domain'])
-print(info['app'])
+print(info.keys())  # keys for each item
+print()
+print(info.values())
+print()
+print(info.items())

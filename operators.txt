@@ -1,0 +1,20 @@
+arithmetic operator
+
++, -, *, /, %, **, //
+   // floor division
+
+relational operators
+    >, >=, <, <=, ==, !=
+
+logical operators
+and, or, not
+
+if else conditional operator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+syntax:-
+    true-part-expr if test-condition else false-part-expr
+
+
+membership test operator
+~~~~~~~~~~~~~~~~~~~~~~~
+in, not in

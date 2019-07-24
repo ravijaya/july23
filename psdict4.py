@@ -1,12 +1,14 @@
 """dict update, add, validate for the key operation"""
 
 info = {
-    'host': ['ws1', 'ws2'],
-    'domain': 'rootcap.in',
-    'desc': 'web server',
-    'app': 'apache httpd',
-    'version': 2.2,  # to be updated....
-
+    '1001': {
+        'name': 'sam',
+        'marks': [2, 3, 4, 5, 6]
+    },
+    '1002': {
+        'name': 'pam',
+        'marks': [12, 3, 14, 15, 16]
+    },
 }
 
 item = 'version'

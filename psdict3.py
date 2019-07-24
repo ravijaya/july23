@@ -1,18 +1,24 @@
-info = {
-    'host': ['ws1', 'ws2'],
-    'domain': 'rootcap.in',
-    'desc': 'web server',
-    'app': 'apache httpd',
-    'version': 2.2,
+"""dict update, add, validate for the key operation"""
 
+info = {
+    '1001': {
+        'name': 'sam',
+        'marks': [2, 3, 4, 5, 6]
+    },
+    '1002': {
+        'name': 'pam',
+        'marks': [12, 3, 14, 15, 16]
+    },
 }
 
-print(info)
-print(type(info))
-print(len(info))
+item = 'version'
 
-# add
-# update
-# delete
-# lookup aka read
-# iterate
+if item in info:   # validate for the key, checking for the key in dict
+    info[item] = 3.6 # update
+
+print(info)
+print()
+info['arch'] = 'x86_64'  # add an element to the dict
+print(info)
+print()
+

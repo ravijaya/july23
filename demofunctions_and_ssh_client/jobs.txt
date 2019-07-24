@@ -1,0 +1,3 @@
+ifconfig
+date2
+free -m

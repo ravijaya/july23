@@ -1,5 +1,5 @@
 import pyexcel as p
-import pprint
+from pprint import pprint as pp  # cherry picking
 
 
 def by_uid(row):
@@ -8,7 +8,7 @@ def by_uid(row):
 
 rows = [row for row in p.get_sheet(file_name='passwd.xlsx')]
 # rows.sort(key=by_uid)
-rows = sorted(rows, key=by_uid, reverse=True)
-pprint.pprint(rows)
+rows = sorted(rows, key=by_uid, reverse=True)  # sorted the list based on a key
+pp(rows)
 
 p.save_as(dest_file_name='reversedbyuid.xlsx', array=rows)

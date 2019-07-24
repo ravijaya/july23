@@ -1,0 +1,15 @@
+-rw-rw-r--.,1:ravijaya;ravijaya    0 Jul 24 13:37 __init__.py
+-rw-rw-r--. 1 ravijaya ravijaya  113 Jul 24 14:25 ipv4.json
+-rw-rw-r--. 1 ravijaya ravijaya    0 Jul 24 15:56 listing.dat
+-rw-r--r--. 1 ravijaya ravijaya    0 Jul 24 15:54 passwd.txt
+-rw-r--r--. 1 ravijaya ravijaya 3140 Jul 24 15:53 passwd.txt.bak
+-rw-rw-r--. 1 ravijaya ravijaya   55 Jul 24 15:26 psdemogrep.py
+-rw-rw-r--. 1 ravijaya ravijaya  252 Jul 24 13:48 psdemoregexmatchmultiple.py
+-rw-rw-r--. 1 ravijaya ravijaya  396 Jul 24 13:51 psdemoregexmatch.py
+-rw-rw-r--. 1 ravijaya ravijaya  342 Jul 24 15:06 psdemoregexsub.py
+-rw-rw-r--. 1 ravijaya ravijaya  291 Jul 24 15:56 psdemosed.py
+-rw-rw-r--. 1 ravijaya ravijaya  499 Jul 24 15:22 psgrepme.py
+-rw-rw-r--. 1 ravijaya ravijaya 1046 Jul 24 14:28 psruncmd2.py
+-rw-rw-r--. 1 ravijaya ravijaya  560 Jul 24 14:04 psruncmd.py
+-rw-rw-r--. 1 ravijaya ravijaya   60 Jul 24 15:03 psutils.py
+drwxrwxr-x. 2 ravijaya ravijaya 4096 Jul 24 15:23 __pycache__

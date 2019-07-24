@@ -1,0 +1,23 @@
+datatype
+
+    -simple
+        -numeric  (int, float, complex)
+        -string  (immutable object),
+            -unicode
+            -bytes
+        -boolean
+        -nonetype (void, undef, NULL)
+
+    -compound/collections
+        list  (an array), ordered collection
+        dict  (key, value) pair, keys must be unique, unordered collections
+              - hash, hash-maps, lookup database
+        tuple  (readonly list)
+        set
+
+
+Sequences types (str, list tuple)
+    -operations
+        i. indexing
+        ii. slicing
+        iii. iteration
